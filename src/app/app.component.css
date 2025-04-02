@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    padding: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #FAD0B8; /* Soft Pink */
+    color: #333;
+}
+/* Fondo y disposición general */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FAD0B8; /* Soft Pink */
+    flex-direction: column;
+    gap: 30px;  /* Agrega un espacio entre los elementos */
+  }
+  
+  /* Logo y estilo superior */
+  header {
+    background-color: #F774C5; /* Axolotl Pink */
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: auto;
+  }
+  
+  /* Contenido central */
+  .content {
+    text-align: center;
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    width: 100%;
+    max-width: 500px; /* Ajuste para que no se vea tan grande en pantallas grandes */
+  }
+  
+  /* Imagen de la mascota */
+  .mascot {
+    width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Texto de bienvenida */
+  .welcome-text {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Botón */
+  .start-btn {
+    background-color: #F774C5; /* Axolotl Pink */
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start-btn:hover {
+    background-color: #F945C3; /* Slightly darker Axolotl Pink */
+  }
+  

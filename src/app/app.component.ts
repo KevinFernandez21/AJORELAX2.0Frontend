@@ -8,5 +8,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'frontend';
+  startLearning(): void {
+    // Aquí podrías redirigir al usuario a la pantalla de aprendizaje
+    console.log('Starting the learning journey...');
+  }
 }
